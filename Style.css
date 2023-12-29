@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #b3d5fc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contener {
+  background-color: rgb(57, 85, 226);
+  height: 40rem;
+  width: 85rem;
+  margin: 55px 87px;
+  border-radius: 60px;
+  display: flex;
+}
+.searching_div {
+  background-image: url(./img/day.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 27%;
+  border-radius: 60px 0px 0px 60px;
+}
+.information_div {
+  background-color: #e4f1ff;
+  height: 100%;
+  width: 73%;
+  border-radius: 0px 60px 60px 0px;
+}
+.searching_bar {
+  margin: 40px 40px;
+  display: inline-flex;
+}
+input[type="text"] {
+  height: 34px;
+  width: 245px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 7px 0px 0px 7px;
+  border: none;
+}
+.search_icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 0px 7px 7px 0px;
+  cursor: pointer;
+}
+.search_button {
+  border-radius: 0px 7px 7px 0px;
+  border: none;
+}
+.country {
+  margin-left: 100px;
+  display: inline-flex;
+}
+.place_icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+#country_name {
+  font-size: 23px;
+  text-align: center;
+}
+.temperature {
+  text-align: center;
+}
+#degree {
+  font-size: 130px;
+  color: #fff;
+}
+.dot {
+  height: 30px;
+  width: 30px;
+  margin: 60px -11px;
+}
+
+/* Right box */
+
+.web_info {
+  margin: 20px 40px;
+  display: flex;
+}
+.p1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  margin-left: 410px;
+}
+.date_and_day {
+  display: flex;
+  margin: 5px 40px;
+  height: 60px;
+  border-radius: 60px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#time {
+  margin-left: 40px;
+  font-size: 30px;
+  line-height: 60px;
+}
+#time_shift {
+  font-size: 25px;
+}
+.date_bar {
+  margin-left: 500px;
+  display: flex;
+  line-height: 60px;
+}
+#day,#date {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.para {
+  font-size: 20px;
+  margin: 20px 40px;
+}
+.weather_details1 {
+  height: 195px;
+  width: 910px;
+  margin: 0px 50px;
+  display: inline-flex;
+}
+.weather_details2 {
+  width: 910px;
+  margin: 0px 50px;
+  display: inline-flex;
+}
+.weather_details_box {
+  margin: 0px 20px 10px 0px;
+  height: 170px;
+  width: 286px;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.copyright{
+  margin: 5px 0px 0px 40px;
+}
+.country_code,.air_pressure,.sunrise_sunset,.humidity,.longtitude_latitude,.wind_speed{
+  font-size: 20px;
+  font-weight: bold;
+}
+.country_code_data,.air_pressure_data,.sunrise_data,.sunset_data,.humidity_data,.longtitude_data,.latitude_data,.wind_speed_data{
+  font-size: 30px;
+}
+.country_code{
+  margin: 10px 70px;
+}
+.air_pressure{
+  margin: 10px 80px;
+}
+.sunrise_sunset{
+  margin: 10px 20px;
+}
+.humidity{
+  margin: 10px 80px;
+}
+.longtitude_latitude{
+  margin: 10px 20px;
+}
+.wind_speed{
+  margin: 10px 80px;
+}

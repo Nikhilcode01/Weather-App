@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/weather-app.png">
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <title>My Weather</title>
+</head>
+
+<body onload="FindDateAndTime()">
+    <script type="text/javascript" src="Script.js"></script>
+
+    <div class="contener">
+
+        <!-- left box -->
+        <div class="searching_div">
+
+            <!-- searching bar -->
+            <div class="searching_bar">
+                <input type="text" placeholder="Enter your Location" id="city">
+                <button class="search_button"><img src="./img/Search.png" class="search_icon"
+                        onclick="SearchWeather()"></button>
+            </div>
+
+            <!-- Weather overview -->
+            <div class="country">
+                <img src="./img/Place.png" class="place_icon">
+                <p id="country_name"></p>
+            </div>
+            <div class="temperature">
+                <span id="degree">00</span>
+                <span><img src="./img/dot.png" class="dot"></span>
+            </div>
+        </div>
+
+        <!-- Right box -->
+        <div class="information_div">
+            <div class="web_info">
+                <div class="welcome_note">
+                    <p class="p1">Welcome to My Weather</p>
+                    <p class="p2">Check out today's weather information</p>
+                </div>
+                <div class="dev">
+                    <img src="./img/weather-app.png" class="logo">
+                </div>
+            </div>
+
+            <div class="date_and_day">
+                <span class="time_bar">
+                    <p id="time">
+                        <span id="time_shift">am</span>
+                    </p>
+                </span>
+                <span class="date_bar">
+                    <p id="day">Date :</p>
+                    <p id="date"></p>
+                </span>
+            </div>
+
+            <div class="para">Today's Weather</div>
+            <div class="weather_details1">
+                <div class="weather_details_box">
+                    <div class="country_code">Country Code</div>
+                    <div class="country_code_data" id="country_code">Null</div>
+                </div>
+                <div class="weather_details_box">
+                    <div class="air_pressure">Air Pressure</div>
+                    <div class="air_pressure_data" id="pressure">000.0hPa</div>
+                </div>
+                <div class="weather_details_box">
+                    <div class="sunrise_sunset">Sunrise & Sunset</div>
+                    <div class="sunrise_data" id="sunrise">0000000000</div>
+                    <div class="sunset_data" id="sunset">0000000000</div>
+                </div>
+            </div>
+
+            <div class="weather_details2">
+                <div class="weather_details_box">
+                    <div class="humidity">Humidity</div>
+                    <div class="humidity_data" id="humidity">000%</div>
+                </div>
+                <div class="weather_details_box">
+                    <div class="longtitude_latitude">longtitude & latitude</div>
+                    <div class="longtitude_data" id="longtitude">00.0000°</div>
+                    <div class="latitude_data" id="latitude">00.0000°</div>
+                </div>
+                <div class="weather_details_box">
+                    <div class="wind_speed">Wind Speed</div>
+                    <div class="wind_speed_data" id="wind_speed">0.0m/s</div>
+                </div>
+            </div>
+            <p class="copyright">Copyright &copy; 2023 Nikhil Yadav India,Inc.All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
