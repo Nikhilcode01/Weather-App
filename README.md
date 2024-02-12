@@ -1,5 +1,7 @@
 <h1>Weather APP</h1>
 
+<img src="https://nikhilcode01.netlify.app/assets/img/portfolio/project%20(4).jpeg" />
+
 The weather application allows users to retrieve current weather information for a specified location. It utilizes Vanilla 
 JavaScript for the front-end to create a lightweight and efficient user interface, and integrates with a weather API to fetch weather data.
 
@@ -53,5 +55,3 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 
 <h4>Conclusion:</h4>
 This weather application provides users with a simple yet effective way to retrieve current weather information for any location. By leveraging Vanilla JavaScript for the front-end and integrating with a weather API, the application delivers real-time weather updates in a user-friendly manner. With its responsive design and error-handling capabilities, it offers a seamless experience for users seeking weather information on the web.
-
-<img src="https://nikhilcode01.netlify.app/assets/img/portfolio/project%20(4).jpeg" />
