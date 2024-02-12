@@ -21,3 +21,9 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 <b>* AJAX Requests:</b> XMLHttpRequest or Fetch API is used to make asynchronous HTTP requests to the weather API and retrieve weather data.<br>
 <b>* Error Handling:</b> JavaScript code includes error handling mechanisms to handle situations such as invalid user input or failed API requests.<br>
 <b>* Responsive Design:</b> CSS media queries and flexible layout techniques are used to ensure the application's responsiveness across different devices.<br>
+
+<h4>(2) Backend (Weather API):</h4>
+
+<b>* API Integration:</b> The application integrates with a weather API (e.g., OpenWeatherMap, Weatherstack, or Dark Sky) to fetch weather data based on the user's location input.
+<b>* RESTful Requests:</b> The frontend sends HTTP requests to the weather API's endpoints, specifying the location and any additional parameters (e.g., units, language).
+<b>* JSON Data:</b> The weather API responds with weather data in JSON format, containing information such as temperature, humidity, wind speed, weather conditions, etc.
