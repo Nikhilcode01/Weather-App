@@ -32,13 +32,13 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 
 <h4>(1) User Input:</h4>
 
-<b>*</b> Users input their desired location (e.g., city name) into a text field or dropdown menu.<br>
-<b>*</b> They may also specify additional preferences such as units (e.g., Celsius, Fahrenheit) or language.<br>
+<b>* </b>Users input their desired location (e.g., city name) into a text field or dropdown menu.<br>
+<b>* </b>They may also specify additional preferences such as units (e.g., Celsius, Fahrenheit) or language.<br>
 
 <h4>(2) Fetching Weather Data:</h4>
 
-<b>*</b> When the user submits the location, the application sends an HTTP request to the weather API, passing the location and any specified parameters.<br>
-<b>*</b> The weather API processes the request and responds with the current weather data for the specified location.<br>
+<b>* </b>When the user submits the location, the application sends an HTTP request to the weather API, passing the location and any specified parameters.<br>
+<b>* </b>The weather API processes the request and responds with the current weather data for the specified location.<br>
 
 <h4>(3) Displaying Weather Information:</h4>
 
@@ -48,5 +48,5 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 
 <h4>(4) Error Handling:</h4>
 
-<b>*</b> If the location is not found or if there is an issue with fetching weather data from the API, the application displays an error message to the user, informing them of the problem.<br>
-<b>*</b> Error messages may include suggestions for the user to try again with a different location or to check their internet connection.<br>
+<b>* </b>If the location is not found or if there is an issue with fetching weather data from the API, the application displays an error message to the user, informing them of the problem.<br>
+<b>* </b>Error messages may include suggestions for the user to try again with a different location or to check their internet connection.<br>
