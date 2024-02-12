@@ -30,23 +30,23 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 
 <h3>Workflow:</h3>
 
-<h4>User Input:</h4>
+<h4>(1) User Input:</h4>
 
 <b>*</b> Users input their desired location (e.g., city name) into a text field or dropdown menu.<br>
 <b>*</b> They may also specify additional preferences such as units (e.g., Celsius, Fahrenheit) or language.<br>
 
-<h4>Fetching Weather Data:</h4>
+<h4>(2) Fetching Weather Data:</h4>
 
 <b>*</b> When the user submits the location, the application sends an HTTP request to the weather API, passing the location and any specified parameters.<br>
 <b>*</b> The weather API processes the request and responds with the current weather data for the specified location.<br>
 
-<h4>Displaying Weather Information:</h4>
+<h4>(3) Displaying Weather Information:</h4>
 
 <b>*</b> The frontend JavaScript code receives the weather data in JSON format.<br>
 <b>*</b> It parses the JSON data and extracts relevant weather information such as temperature, humidity, wind speed, etc.<br>
-<b>*</b> The extracted weather information is dynamically displayed on the user interface, updating the DOM with the current weather conditions.
+<b>*</b> The extracted weather information is dynamically displayed on the user interface, updating the DOM with the current weather conditions.<br>
 
-<h4>Error Handling:</h4>
+<h4>(4) Error Handling:</h4>
 
-<b>*</b> If the location is not found or if there is an issue with fetching weather data from the API, the application displays an error message to the user, informing them of the problem.
-<b>*</b> Error messages may include suggestions for the user to try again with a different location or to check their internet connection.
+<b>*</b> If the location is not found or if there is an issue with fetching weather data from the API, the application displays an error message to the user, informing them of the problem.<br>
+<b>*</b> Error messages may include suggestions for the user to try again with a different location or to check their internet connection.<br>
