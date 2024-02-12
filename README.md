@@ -24,6 +24,6 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 
 <h4>(2) Backend (Weather API):</h4>
 
-<b>* API Integration:</b> The application integrates with a weather API (e.g., OpenWeatherMap, Weatherstack, or Dark Sky) to fetch weather data based on the user's location input.
-<b>* RESTful Requests:</b> The frontend sends HTTP requests to the weather API's endpoints, specifying the location and any additional parameters (e.g., units, language).
-<b>* JSON Data:</b> The weather API responds with weather data in JSON format, containing information such as temperature, humidity, wind speed, weather conditions, etc.
+<b>* API Integration:</b> The application integrates with a weather API (e.g., OpenWeatherMap, Weatherstack, or Dark Sky) to fetch weather data based on the user's location input.<br>
+<b>* RESTful Requests:</b> The frontend sends HTTP requests to the weather API's endpoints, specifying the location and any additional parameters (e.g., units, language).<br>
+<b>* JSON Data:</b> The weather API responds with weather data in JSON format, containing information such as temperature, humidity, wind speed, weather conditions, etc.<br>
