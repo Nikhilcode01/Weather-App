@@ -16,11 +16,11 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 
 <h4>(1) Frontend (Vanilla JavaScript):</h4>
 
-<b>* DOM Manipulation:</b> JavaScript is used to manipulate the Document Object Model (DOM) to dynamically update the user interface with weather information.</br>
-<b>* Event Handling:</b> Event listeners are utilized to capture user input (location) and trigger actions such as fetching weather data.</br>
-<b>* AJAX Requests:</b> XMLHttpRequest or Fetch API is used to make asynchronous HTTP requests to the weather API and retrieve weather data.</br>
-<b>* Error Handling:</b> JavaScript code includes error handling mechanisms to handle situations such as invalid user input or failed API requests.</br>
-<b>* Responsive Design:</b> CSS media queries and flexible layout techniques are used to ensure the application's responsiveness across different devices.</br>
+<b>* DOM Manipulation:</b> JavaScript is used to manipulate the Document Object Model (DOM) to dynamically update the user interface with weather information.<br>
+<b>* Event Handling:</b> Event listeners are utilized to capture user input (location) and trigger actions such as fetching weather data.<br>
+<b>* AJAX Requests:</b> XMLHttpRequest or Fetch API is used to make asynchronous HTTP requests to the weather API and retrieve weather data.<br>
+<b>* Error Handling:</b> JavaScript code includes error handling mechanisms to handle situations such as invalid user input or failed API requests.<br>
+<b>* Responsive Design:</b> CSS media queries and flexible layout techniques are used to ensure the application's responsiveness across different devices.<br>
 
 <h4>(2) Backend (Weather API):</h4>
 
@@ -42,9 +42,9 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 
 <h4>(3) Displaying Weather Information:</h4>
 
-<b>*</b> The frontend JavaScript code receives the weather data in JSON format.<br>
-<b>*</b> It parses the JSON data and extracts relevant weather information such as temperature, humidity, wind speed, etc.<br>
-<b>*</b> The extracted weather information is dynamically displayed on the user interface, updating the DOM with the current weather conditions.<br>
+<b>* </b>The frontend JavaScript code receives the weather data in JSON format.<br>
+<b>* </b>It parses the JSON data and extracts relevant weather information such as temperature, humidity, wind speed, etc.<br>
+<b>* </b>The extracted weather information is dynamically displayed on the user interface, updating the DOM with the current weather conditions.<br>
 
 <h4>(4) Error Handling:</h4>
 
