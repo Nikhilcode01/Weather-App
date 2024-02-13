@@ -71,5 +71,5 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 </ul>
 </ol>
 
-<h4>Conclusion:</h4>
+<h3>Conclusion:</h3>
 This weather application provides users with a simple yet effective way to retrieve current weather information for any location. By leveraging Vanilla JavaScript for the front-end and integrating with a weather API, the application delivers real-time weather updates in a user-friendly manner. With its responsive design and error-handling capabilities, it offers a seamless experience for users seeking weather information on the web.
