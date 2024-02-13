@@ -18,14 +18,15 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 
 <h3>Architecture:</h3>
 
-<h4>(1) Frontend (Vanilla JavaScript):</h4>
+<ol>
+<li><h4> Frontend (Vanilla JavaScript):</h4></li>
 
 <ul>
 <li><b> DOM Manipulation:</b> JavaScript is used to manipulate the Document Object Model (DOM) to dynamically update the user interface with weather information.</li><br>
 <li><b> Event Handling:</b> Event listeners are utilized to capture user input (location) and trigger actions such as fetching weather data.</li><br>
 <li><b> AJAX Requests:</b> XMLHttpRequest or Fetch API is used to make asynchronous HTTP requests to the weather API and retrieve weather data.</li><br>
 <li><b> Error Handling:</b> JavaScript code includes error handling mechanisms to handle situations such as invalid user input or failed API requests.</li><br>
-<li><b> Responsive Design:</b> CSS media queries and flexible layout techniques are used to ensure the application's responsiveness across different devices.</li><br>
+<li><b> Responsive Design:</b> CSS media queries and flexible layout techniques are used to ensure the application's responsiveness across different devices.</li>
 </ul>
 
 <h4>(2) Backend (Weather API):</h4>
@@ -33,7 +34,7 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 <ul>
 <li><b> API Integration:</b> The application integrates with a weather API (e.g., OpenWeatherMap, Weatherstack, or Dark Sky) to fetch weather data based on the user's location input.</li><br>
 <li><b> RESTful Requests:</b> The frontend sends HTTP requests to the weather API's endpoints, specifying the location and any additional parameters (e.g., units, language).</li><br>
-<li><b> JSON Data:</b> The weather API responds with weather data in JSON format, containing information such as temperature, humidity, wind speed, weather conditions, etc.</li><br>
+<li><b> JSON Data:</b> The weather API responds with weather data in JSON format, containing information such as temperature, humidity, wind speed, weather conditions, etc.</li>
 </ul>
 
 <h3>Workflow:</h3>
@@ -42,14 +43,14 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 
 <ul>
 <li>Users input their desired location (e.g., city name) into a text field or dropdown menu.</li><br>
-<li>They may also specify additional preferences such as units (e.g., Celsius, Fahrenheit) or language.</li><br>
+<li>They may also specify additional preferences such as units (e.g., Celsius, Fahrenheit) or language.</li>
 </ul>
 
 <h4>(2) Fetching Weather Data:</h4>
 
 <ul>
 <li>When the user submits the location, the application sends an HTTP request to the weather API, passing the location and any specified parameters.</li><br>
-<li>The weather API processes the request and responds with the current weather data for the specified location.</li><br>
+<li>The weather API processes the request and responds with the current weather data for the specified location.</li>
 </ul>
 
 <h4>(3) Displaying Weather Information:</h4>
@@ -57,14 +58,14 @@ JavaScript for the front-end to create a lightweight and efficient user interfac
 <ul>
 <li>The frontend JavaScript code receives the weather data in JSON format.</li><br>
 <li>It parses the JSON data and extracts relevant weather information such as temperature, humidity, wind speed, etc.</li><br>
-<li>The extracted weather information is dynamically displayed on the user interface, updating the DOM with the current weather conditions.</li><br>
+<li>The extracted weather information is dynamically displayed on the user interface, updating the DOM with the current weather conditions.</li>
 </ul>
 
 <h4>(4) Error Handling:</h4>
 
 <ul>
 <li>If the location is not found or if there is an issue with fetching weather data from the API, the application displays an error message to the user, informing them of the problem.</li><br>
-<li>Error messages may include suggestions for the user to try again with a different location or to check their internet connection.</li><br>
+<li>Error messages may include suggestions for the user to try again with a different location or to check their internet connection.</li>
 </ul>
 
 <h4>Conclusion:</h4>
